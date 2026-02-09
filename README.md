@@ -495,7 +495,7 @@ Code for marking duplicates:
 
 Putting it all together in one script.
 
-:::spoiler 05_mark_dups.sh
+05_mark_dups.sh
 ```
 #!/bin/bash
 set -euo pipefail
@@ -541,7 +541,6 @@ for bam in "$in"/*.hap1.sorted.bam; do
 done
 
 ```
-:::
 
 ## Step 3: HaplotypeCaller (gVCF)
 
